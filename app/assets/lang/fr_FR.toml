@@ -7,7 +7,7 @@ serverStatus = "SERVEUR"
 serverStatusPlaceholder = "HORS-LIGNE"
 mojangStatus = "STATUS DE MOJANG"
 mojangStatusTooltipTitle = "Services"
-mojangStatusNETitle = "Non&nbsp;Essential"
+mojangStatusNETitle = "Non&nbsp;Essentiel"
 newsButton = "ACTUALITES"
 launchButton = "JOUER"
 launchButtonPlaceholder = "&#8226; Aucun Serveur Sélectionné"
@@ -41,33 +41,33 @@ loginWithMojang = "Connexion avec Mojang"
 cancelButton = "Annulé"
 
 [ejs.overlay]
-serverSelectHeader = "Available Servers"
-serverSelectConfirm = "Select"
-serverSelectCancel = "Cancel"
-accountSelectHeader = "Select an Account"
-accountSelectConfirm = "Select"
-accountSelectCancel = "Cancel"
+serverSelectHeader = "Serveurs Disponible"
+serverSelectConfirm = "Selectionné"
+serverSelectCancel = "Annulé"
+accountSelectHeader = "Sélectionné un Compte"
+accountSelectConfirm = "Selectionné"
+accountSelectCancel = "Annulé"
 
 [ejs.settings]
-navHeaderText = "Settings"
-navAccount = "Account"
+navHeaderText = "Paramètres"
+navAccount = "Compte"
 navMinecraft = "Minecraft"
 navMods = "Mods"
 navJava = "Java"
 navLauncher = "Launcher"
-navAbout = "About"
-navUpdates = "Updates"
-navDone = "Done"
-tabAccountHeaderText = "Account Settings"
-tabAccountHeaderDesc = "Add new accounts or manage existing ones."
+navAbout = "A Propos"
+navUpdates = "Mises à Jour"
+navDone = "Terminé"
+tabAccountHeaderText = "Paramètres de Compte"
+tabAccountHeaderDesc = "Ajouter un nouveau compte ou gérer un compte existant."
 microsoftAccount = "Microsoft"
-addMicrosoftAccount = "+ Add Microsoft Account"
+addMicrosoftAccount = "+ Ajouter un Compte Microsoft"
 mojangAccount = "Mojang"
-addMojangAccount = "+ Add Mojang Account"
-minecraftTabHeaderText = "Minecraft Settings"
+addMojangAccount = "+ Ajouter un Compte Mojang"
+minecraftTabHeaderText = "Paramètres de Minecraft"
 minecraftTabHeaderDesc = "Options related to game launch."
 gameResolutionTitle = "Game Resolution"
-launchFullscreenTitle = "Launch in fullscreen."
+launchFullscreenTitle = "Lancer en plein écran."
 autoConnectTitle = "Automatically connect to the server on launch."
 launchDetachedTitle = "Launch game process detached from launcher."
 launchDetachedDesc = "If the game is not detached, closing the launcher will also close the game."
@@ -124,25 +124,25 @@ whatsNew = "What's New"
 updateReleaseNotes = "Update Release Notes"
 
 [ejs.waiting]
-waitingText = "Waiting for Microsoft.."
+waitingText = "Attente de Microsoft.."
 
 [ejs.welcome]
 continueButton = "CONTINUE"
 
 
 [js.discord]
-waiting = "Waiting for Client.."
-state = "Server: {shortId}"
+waiting = "Attente du Client.."
+state = "Serveur : {shortId}"
 
 [js.index]
-microsoftLoginTitle = "Microsoft Login"
-microsoftLogoutTitle = "Microsoft Logout"
+microsoftLoginTitle = "Connexion Microsoft"
+microsoftLogoutTitle = "Déconnexion Microsoft"
 
 [js.login]
-login = "LOGIN"
-loggingIn = "LOGGING IN"
-success = "SUCCESS"
-tryAgain = "Try Again"
+login = "CONNEXION"
+loggingIn = "CONNEXION"
+success = "SUCCES"
+tryAgain = "Essayer Encore"
 
 [js.login.error]
 invalidValue = "* Invalid Value"
@@ -166,9 +166,9 @@ noSelection = "No Server Selected"
 loading = "Loading.."
 
 [js.landing.serverStatus]
-server = "SERVER"
-offline = "OFFLINE"
-players = "PLAYERS"
+server = "SERVEUR"
+offline = "HORS-LIGNE"
+players = "JOUEURS"
 
 [js.landing.systemScan]
 checking = "Checking system info.."
